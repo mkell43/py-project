@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "~/.pyenv/versions/{{ cookiecutter.project_slug }}/bin/python",
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "79"],
+  "python.linting.flake8Enabled": true,
+  "editor.rulers": [{ "column": 79, "color": "#ff8b39" }]
+}
